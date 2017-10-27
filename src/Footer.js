@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-// import './App.css';
+import './Footer.css';
 
 const Footer = (props) => {
     return (
-        <div>
-            Facebook    Twitter     LinkedIn
+        <div className ="Footer">
+            <a href>Facebook</a>
+            <a href>Twitter</a>
+            <a href>LinkedIn</a>
         </div>
     )
 }
