@@ -7,6 +7,7 @@ import './Home.css';
 const Home = (props) => {
     return (
         <div className="Home">
+        <h1>Welcome to Surdi</h1>
         <p>
           Connect with the World, one sign at a time
         </p>

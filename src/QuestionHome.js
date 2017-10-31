@@ -4,6 +4,7 @@ import './QuestionHome.css';
 
 const QuestionHome = (props) => {
     return (
+        <header>
         <div className="QuestionHome">
             <a href>Interesting</a>
             <a href>Features</a>
@@ -11,6 +12,9 @@ const QuestionHome = (props) => {
             <a href>Week</a>
             <a href>Month</a>
         </div>
+        </header>
+
+        
     )
 }
 
