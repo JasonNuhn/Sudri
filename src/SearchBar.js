@@ -7,7 +7,7 @@ import logo from './logo.svg';
 const SearchBar = (props) => {
     return (
         <div>
-            Questions   Languages    Users   Search  Log In Sign In
+            <h1>Where do I find somethin?</h1>
         </div>
     )
 }

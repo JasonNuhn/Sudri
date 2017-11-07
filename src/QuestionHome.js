@@ -41,8 +41,8 @@ const QuestionHome = (props) => {
         <Tabs className="tabs tabs-1">
             <div className="tab-links">
                 <TabLink to="tab1">Recent</TabLink>
-                <TabLink to="tab2">Current</TabLink>
-                <TabLink to="tab3">Hot</TabLink>
+                {/* <TabLink to="tab2">Current</TabLink>
+                <TabLink to="tab3">Hot</TabLink> */}
                 {/* <TabLink to="tab4">Week</TabLink>
                 <TabLink to="tab5">Month</TabLink> */}
             </div>
