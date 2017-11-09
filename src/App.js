@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -19,7 +19,19 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="App-header">
+            <ul>
+              <a><Link to="/" className="active">Home</Link></a>
+              <a><Link to="/Question" className="active">Question</Link></a>
+              <a><Link to="/Language" className="active">Language</Link></a>
+              <a><Link to="/Userslist" className="active">Users</Link></a>
+              <a><Link to="/SearchBar" className="active">Search</Link></a>
+              <a><Link to="/Login" className="active">Log In</Link></a>
+              <a><Link to="/Signin" className="active">Sign In</Link></a>
+            </ul>
+            
+            
+            
             <Route exact path="/" component={Home} />
             <Route path="/Question" component={QuestionHome} />
             <Route path="/Language" component={Language} />
