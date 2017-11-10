@@ -41,10 +41,10 @@ const QuestionHome = (props) => {
         <Tabs className="tabs tabs-1">
             <div className="tab-links">
                 <TabLink to="tab1">Recent</TabLink>
-                {/* <TabLink to="tab2">Current</TabLink>
-                <TabLink to="tab3">Hot</TabLink> */}
-                {/* <TabLink to="tab4">Week</TabLink>
-                <TabLink to="tab5">Month</TabLink> */}
+                <TabLink to="tab2">Current</TabLink>
+                <TabLink to="tab3">Hot</TabLink>
+                <TabLink to="tab4">Week</TabLink>
+                <TabLink to="tab5">Month</TabLink>
             </div>
 
             <div className="content">
@@ -57,7 +57,7 @@ const QuestionHome = (props) => {
                         Pro vitae percipit no. Per ignota audire no. Ex hinc mutat delicata sit, sit eu erant tempor vivendo. Ad modus nusquam recusabo sit. Per ne deserunt periculis, ad sea saepe perfecto expetendis, est nonumy contentiones voluptatibus cu.
                     </p>
                 </TabContent>
-                {/* <TabContent for="tab2">
+                <TabContent for="tab2">
                 <p>
                         Lorem ipsum dolor sit amet, in vel malorum adipiscing. Duis deleniti ei cum, amet graece nec an.
                         Eu vix sumo atqui apeirian, nullam integre accusamus his at, animal feugiat in sed.
@@ -65,8 +65,8 @@ const QuestionHome = (props) => {
                     <p>
                         Pro vitae percipit no. Per ignota audire no. Ex hinc mutat delicata sit, sit eu erant tempor vivendo. Ad modus nusquam recusabo sit. Per ne deserunt periculis, ad sea saepe perfecto expetendis, est nonumy contentiones voluptatibus cu.
                     </p>
-                </TabContent> */}
-                {/* <TabContent for="tab3">
+                </TabContent>
+                <TabContent for="tab3">
                 <p>
                         Lorem ipsum dolor sit amet, in vel malorum adipiscing. Duis deleniti ei cum, amet graece nec an.
                         Eu vix sumo atqui apeirian, nullam integre accusamus his at, animal feugiat in sed.
@@ -74,8 +74,8 @@ const QuestionHome = (props) => {
                     <p>
                         Pro vitae percipit no. Per ignota audire no. Ex hinc mutat delicata sit, sit eu erant tempor vivendo. Ad modus nusquam recusabo sit. Per ne deserunt periculis, ad sea saepe perfecto expetendis, est nonumy contentiones voluptatibus cu.
                     </p>
-                </TabContent> */}
-                {/* <TabContent for="tab4">
+                </TabContent>
+                <TabContent for="tab4">
                 <p>
                         Lorem ipsum dolor sit amet, in vel malorum adipiscing. Duis deleniti ei cum, amet graece nec an.
                         Eu vix sumo atqui apeirian, nullam integre accusamus his at, animal feugiat in sed.
@@ -92,7 +92,7 @@ const QuestionHome = (props) => {
                     <p>
                         Pro vitae percipit no. Per ignota audire no. Ex hinc mutat delicata sit, sit eu erant tempor vivendo. Ad modus nusquam recusabo sit. Per ne deserunt periculis, ad sea saepe perfecto expetendis, est nonumy contentiones voluptatibus cu.
                     </p>
-                </TabContent> */}
+                </TabContent>
             </div>
         </Tabs>
         </div>
