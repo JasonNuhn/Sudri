@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-// import './App.css';
+import React from 'react';
+import './Signin.css';
 
 const Signin = (props) => {
     return (
-        <div>
-            <ul>first name</ul>
-            <ul>last name</ul>
-            <ul>email address</ul>
-            <ul>username</ul>
-            <ul>password</ul>
+        <div className="Signin">
+            <p>first name</p>
+            <p>last name</p>
+            <p>email address</p>
+            <p>username</p>
+            <p>password</p>
         </div>
     )
 }

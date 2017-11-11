@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-// import './App.css';
+import React from 'react';
+
+import './UsersList.css';
 
 const UsersList = (props) => {
     return (
-        <div>
-            <h1>week month quarter year all</h1>
+        <div className="User">
             
-            <ul>username</ul>
-            <ul>location</ul>
-            <ul>answers</ul>
-            <ul>language</ul>
+            <p>username</p>
+            <p>location</p>
+            <p>answers</p>
+            <p>language</p>
             
         </div>
     )

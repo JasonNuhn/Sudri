@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
 import Footer from './Footer';
-import QuestionsForm from './components/QuestionsForm';
-import QuestionsContainer from './components/QuestionsContainer';
+// import QuestionsForm from './components/QuestionsForm';
+// import QuestionsContainer from './components/QuestionsContainer';
 import Home from './Home';
 import QuestionHome from './QuestionHome';
 import Language from './Language';

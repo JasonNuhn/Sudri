@@ -9,8 +9,9 @@
   
   .QuestionHome {
     background-color: #CCCCCC;
-    height: 20px;
-    padding: 20px;
+    height: 40px;
+    width: 100;
+    /* padding: 20px; */
     color: #003366;
   }
   
@@ -38,11 +39,11 @@
 .tabs-1 .tab-links {
   margin: 0;
   padding: 0;
-  border: 1px solid #CCC;
-  border-bottom: 1px solid #868686;
+  border: 2px solid #CCC;
+  border-bottom: 2px solid #868686;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  height: 35px;
+  height: 50px;
   position: relative;
   top: 5px;
 }
