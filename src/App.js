@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-// import logo from './logo.svg';
 import './App.css';
 
-import Footer from './Footer';
-// import QuestionsForm from './components/QuestionsForm';
-// import QuestionsContainer from './components/QuestionsContainer';
-import Home from './Home';
+import Footer from './footer/Footer';
+import Home from './home/Home';
 import QuestionHome from './QuestionHome';
-import Language from './Language';
-import UsersList from './UsersList';
-import SearchBar from './SearchBar';
-import Login from './Login';
-import Signin from './Signin';
+import Language from './language/Language';
+import UsersList from './user/UsersList';
+import SearchBar from './search/SearchBar';
+import Login from './login/Login';
+import Signin from './signin/Signin';
 
 
 class App extends Component {

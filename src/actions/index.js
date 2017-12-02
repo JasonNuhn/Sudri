@@ -1,8 +1,11 @@
-export const ADD_QUESTION = 'ADD_QUESTION';
+import axios from 'axios';
 
-export const addQuestion = (question) => {
+export const ADD_POST = 'ADD_POST';
+
+export const addPost = (post) => {
+    const promise = axios.post('http://localhost:3000/posts', post);
     return {
-        type: ADD_QUESTION,
-        payload: question
+        type: ADD_POST,
+        payload: promise
     };
 };

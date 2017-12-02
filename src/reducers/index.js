@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import questions from './questionsReducer';
+import posts from './postsReducer';
 
 const rootReducer = combineReducers({
-    questions
+    posts
 });
 
 export default rootReducer;
