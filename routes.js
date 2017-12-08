@@ -11,10 +11,14 @@ module.exports = app => {
         .get(userControllers.userList); //works on nodemon!
 
     app
+        .route('/users/:id')
+        .get(userControllers.findUser); 
+
+    app
         .route('/new-post')
         .post(postControllers.createPost); //works on nodemon!
 
     app
         .route('/posts')
-        .get(postControllers.postList);
+        .get(postControllers.postList); // works on nodemon!
 };

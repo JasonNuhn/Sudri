@@ -17,6 +17,23 @@ const createUser = (req, res) => {
     });
 };
 
+const findUser = (req, res) => {
+    const { firstName, lastName, email, displayName, city, state } = req.body;
+    User.findOne({ firstName, lastName, email, displayName, city, state }, (err, firstName, lastName, email, displayName, city, state) => {
+        if (err || !firstName || !lastName || !email || !displayName || !city || !state) {
+            res.status(STATUS_USER_ERROR);
+            res.json({ message: 'Incorrect credentials!' });
+        }
+    })
+    .then(user => {
+        res.json(user);
+    })
+    .catch(err => {
+        res.status(STATUS_USER_ERROR);
+        res.json({ errorMessages: err.message });
+    });
+};
+
 const userList = (req, res) => {
     User.find({})
         .exec()
@@ -32,4 +49,5 @@ const userList = (req, res) => {
 module.exports = {
     createUser,
     userList,
+    findUser,
 };

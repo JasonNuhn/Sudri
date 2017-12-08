@@ -1,5 +1,7 @@
 const bodyParser = require('body-parser');
 const express = require('express');
+const sqlite = require('sqlite3');
+const knex = require('./db.js');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const port = process.env.PORT || 3001;
@@ -14,7 +16,7 @@ const corsOptions = {
 };
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/27017', { useMongoClient: true });
+//mongoose.connect('mongodb://localhost/27017', { useMongoClient: true });
 
 server.use(bodyParser.urlencoded({extended: true}));
 server.use(bodyParser.json());
