@@ -5,9 +5,7 @@ import './Footer.css';
 const Footer = (props) => {
     return (
         <div className ="Footer">
-            <a href>Facebook</a>
-            <a href>Twitter</a>
-            <a href>LinkedIn</a>
+            <ul>Facebook Twitter LinkedIn</ul>
         </div>
     )
 }

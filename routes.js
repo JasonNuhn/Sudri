@@ -1,3 +1,6 @@
+const sqlite = require('sqlite3');
+const knex = require('./db.js');
+
 const userControllers = require('./UserControllers');
 const postControllers = require('./PostControllers');
 

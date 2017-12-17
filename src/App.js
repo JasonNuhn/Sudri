@@ -9,7 +9,7 @@ import Language from './language/Language';
 import UsersList from './user/UsersList';
 import SearchBar from './search/SearchBar';
 import Login from './login/Login';
-import Signin from './signin/Signin';
+import Signup from './signin/Signup';
 
 
 class App extends Component {
@@ -18,13 +18,13 @@ class App extends Component {
       <Router>
         <div className="App-header">
             <ul>
-              <a><Link to="/" className="active">Home</Link></a>
-              <a><Link to="/Question" className="active">Question</Link></a>
-              <a><Link to="/Language" className="active">Language</Link></a>
-              <a><Link to="/Userslist" className="active">Users</Link></a>
-              <a><Link to="/SearchBar" className="active">Search</Link></a>
-              <a><Link to="/Login" className="active">Log In</Link></a>
-              <a><Link to="/Signin" className="active">Sign In</Link></a>
+              <Link to="/" className="active">Home</Link>
+              <Link to="/Question" className="active">Question</Link>
+              <Link to="/Language" className="active">Language</Link>
+              <Link to="/Userslist" className="active">Users</Link>
+              <Link to="/SearchBar" className="active">Search</Link>
+              <Link to="/Login" className="active">Log In</Link>
+              <Link to="/Signup" className="active">Sign Up</Link>
             </ul>
             
             
@@ -35,7 +35,7 @@ class App extends Component {
             <Route path="/Userslist" component={UsersList} />
             <Route path="/SearchBar" component={SearchBar} />
             <Route path="/Login" component={Login} />
-            <Route path="/Signin" component={Signin} />
+            <Route path="/Signup" component={Signup} />
           <Footer />
         </div>
       </Router>

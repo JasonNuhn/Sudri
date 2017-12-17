@@ -13,7 +13,7 @@ module.exports = {
     migrations: {
       tableName: 'migrations',
     },
-    //useNullasDefault: true,
+    useNullAsDefault: true,
   }
 
   // production: {
